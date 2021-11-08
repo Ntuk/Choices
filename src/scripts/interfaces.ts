@@ -566,7 +566,7 @@ export interface Options {
    *
    * @default null
    */
-  placeholderValue: string | null;
+  placeholderValue: string | null | any;
 
   /**
    * The value of the search inputs placeholder.
@@ -620,7 +620,7 @@ export interface Options {
    *
    * @default 'No results found'
    */
-  noResultsText: string | Types.stringFunction;
+  noResultsText: string | Types.stringFunction | any;
 
   /**
    * The text that is shown when a user has selected all possible choices. Optionally pass a function returning a string.
@@ -629,7 +629,7 @@ export interface Options {
    *
    * @default 'No choices to choose from'
    */
-  noChoicesText: string | Types.stringFunction;
+  noChoicesText: string | Types.stringFunction | any;
 
   /**
    * The text that is shown when a user hovers over a selectable choice.
